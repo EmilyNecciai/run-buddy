@@ -148,7 +148,6 @@ footer a {
 .steps {
     text-align: center;
     background: #fce138;
-    margin-bottom: 80px;
 }
 
 .steps img {
@@ -161,6 +160,10 @@ footer a {
     font-size: 46px;
     margin-top: 10px;
 }
+
+.steps div {
+    margin-bottom: 80px;
+  }  
 
 .steps p {
     color: #39a6b2;
