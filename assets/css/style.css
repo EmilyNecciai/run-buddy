@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* HEADER STYLES*/
+/*base header style*/
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+/*Page Header Styling*/
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/*neutral styling for links in header*/
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/*floats list items in the nav to the right*/
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/*Lines up items in the nav that are in line element*/
+header nav ul li {
+    display: inline;
+}
+
+/*space the linked items in the nav*/
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
