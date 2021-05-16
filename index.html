@@ -34,29 +34,68 @@
         </header>
 
         <!--HERO SECTION START-->
-        <section>
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and on of our trainers will schedule a consult.</p>
+                
+                <!--FORM-->
+                <form>
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
 
+                    <label for="email">Enter email address:</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
+
+                    <label for="phone">Enter a telephone number:</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>
+
+                    <p>
+                        <label for="consent-confirm">I acknowledge that I am at least 18 years of age.</label>
+                        <input type="checkbox" name="consent-confirm" id="consent-confirm" />
+                    </p>
+
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </form>
+            </div>
         </section>
+        <!--HERO SECTION END-->
 
         <!--WHAT WE DO SECTION START-->
         <section>
             <h2>What We Do</h2>
         </section>
+        <!--WHAT WE DO SECTION END-->
 
         <!--WHAT YOU DO SECTION START-->
         <section>
             <h2>What You Do</h2>
-        </section> 
+        </section>
+        <!--WHAT YOU DO SECTION END-->
+ 
 
         <!--MEET THE TRAINERS SECTION START-->
         <section>
             <h2>Meet the Trainers</h2>
         </section>
-
+        <!--MEET THE TRAINERS SECTION END-->
+        
         <!--REACH OUT SECTION START-->
         <section>
             <h2>Reach Out</h2>
         </section>
+        <!--REACH OUT SECTION END-->
 
         <!--FOOTER SECTION START-->
         <footer>
@@ -66,6 +105,8 @@
                 &copy;Run Buddy, Inc. 
             </div>
         </footer> 
+        <!--FOOTER SECTION END-->
+        
     </body>
 
 </html>
