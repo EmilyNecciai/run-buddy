@@ -81,11 +81,24 @@ footer a {
 
 /*HERO STYLES*/
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/flipped-hero-image.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.hero-boiler {
+    text-align: right;
+}
+
+.hero-boiler h1 {
+    color: #fce138;
+    font-size: 36px;
+}
+
+.hero-boiler p {
+    color: white;
 }
 
 .hero-form {
