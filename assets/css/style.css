@@ -42,15 +42,19 @@ header nav {
 }
 
 /*Lines up items in the nav that are in line element*/
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /*space the linked items in the nav*/
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /*FOOTER STYLES*/
