@@ -18,6 +18,9 @@ section {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 /*Page Header Styling*/
 header h1 {
@@ -25,7 +28,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 /*neutral styling for links in header*/
@@ -36,7 +38,6 @@ header a {
 
 /*floats list items in the nav to the right*/
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
