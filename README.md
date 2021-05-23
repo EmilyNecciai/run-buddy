@@ -12,4 +12,4 @@ https://emilynecciai.github.io/run-buddy/
 ## Contribution
 Made by Emily Mayeski for the GW Coding Bootcamp course.
 
-# Run Buddy Inc.
+### ©️2021 Run Buddy, Inc 
