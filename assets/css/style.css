@@ -62,11 +62,13 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /*footer text styles*/
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -74,9 +76,7 @@ footer h2 {
 
 /*footer div container alignment and spacing*/
 footer div {
-    float: right;
     line-height: 1.5;
-    text-align: right;
 }
 
 /*footer link styles*/
@@ -87,34 +87,35 @@ footer a {
 /*HERO STYLES*/
 .hero {
     background-image: url("../images/flipped-hero-image.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-boiler {
+    width: 35%;
     text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
 }
 
-.hero-boiler h1 {
+.hero-boiler h2 {
+    font-style: italic;
     color: #fce138;
-    font-size: 36px;
-}
-
-.hero-boiler p {
-    color: white;
+    font-size: 55px;
 }
 
 .hero-form {
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
     padding: 20px;
     background-color: #fce138;
-    width: 500px;
     color: #024e76;
     border: solid 3px #024e76;
+    width: 40%;
+    margin: 3.5%
 }
 
 .hero-form h3 {
