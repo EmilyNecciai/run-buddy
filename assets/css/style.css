@@ -21,6 +21,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url(../images/flipped-hero-image.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
 }
 
 .flex-row {
@@ -33,6 +40,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /*neutral styling for links in header*/
@@ -62,6 +70,13 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
 /*FOOTER STYLES*/
 footer {
     background: #fce138;
@@ -77,6 +92,7 @@ footer h2 {
     color: #024e76;
     font-size: 30px;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /*footer div container alignment and spacing*/
@@ -93,11 +109,12 @@ footer a {
 .hero {
     background-image: url("../images/flipped-hero-image.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-attachment: fixed;
 }
 
 .hero-boiler {
@@ -113,15 +130,18 @@ footer a {
     font-style: italic;
     color: #fce138;
     font-size: 55px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
     padding: 20px;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
     color: #024e76;
     border: solid 3px #024e76;
+    border-radius: 15px;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -141,6 +161,13 @@ footer a {
     color: #024e76;
     padding: 7px 15px;
     margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.form-input:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
 }
 
 .hero-form label {
@@ -153,6 +180,11 @@ footer a {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 10px;
+}
+
+.hero-form button:hover {
+    background-color: #39a6b2;
 }
 
 /*WHAT WE DO Section Styles*/
@@ -174,11 +206,15 @@ footer a {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #39a6b2;
+}
+
+.step:last-child {
+    border-bottom: none;
 }
 
 .step h3 {
@@ -291,6 +327,7 @@ footer a {
 
 .contact h2 {
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .contact-info {
@@ -339,6 +376,14 @@ footer a {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
 }
 
 .contact-form button {
@@ -349,6 +394,12 @@ footer a {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
+}
+
+.contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
 }
 
 /*MEDIA QUERIES FOR SMALL DESKTOPS AND SMALLER SCREENS*/
@@ -356,11 +407,13 @@ footer a {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {
         width: 100%;
         text-align: center;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     header nav ul {
@@ -373,6 +426,7 @@ footer a {
     footer div {
         text-align: center;
         width: 100%;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     .hero-boiler, 
